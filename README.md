@@ -1,8 +1,8 @@
 # DevOps-Learning
 
 ## Why DevOps?
-* Waterfall Model - Development goes to next stage once the previous stage completed. 
-* It cannot go back like waterfall.
+* Waterfall Model - Development goes to the next stage once the previous stage is completed. 
+* It cannot go back like a waterfall.
 
 ![image](https://github.com/DininduChamikara/DevOps-Learning/assets/73112985/84c6a06a-6a78-4b40-84f3-47dfc189b6ea)
 
@@ -39,6 +39,9 @@
 
 ![image](https://github.com/DininduChamikara/DevOps-Learning/assets/73112985/0e7cb937-cb1e-4638-a5ae-e3618b04080f)
 
+
+## DevOps Tools
+
 ![image](https://github.com/DininduChamikara/DevOps-Learning/assets/73112985/87920617-776f-46c4-afe0-cfc7474a829d)
 
 ![image](https://github.com/DininduChamikara/DevOps-Learning/assets/73112985/e75b8ddc-d440-4d93-8f4a-11718294718e)
@@ -49,10 +52,35 @@
 
 ![image](https://github.com/DininduChamikara/DevOps-Learning/assets/73112985/324f92a7-09d6-411d-83de-0b8672dd88b6)
 
-35:43 Stoped
+![image](https://github.com/DininduChamikara/DevOps-Learning/assets/73112985/8617f703-ced5-4f9c-9bcf-b7fa999a58c5)
 
+![image](https://github.com/DininduChamikara/DevOps-Learning/assets/73112985/f72ee5a7-f912-4961-aec0-90ffb8e877dd)
 
-## DevOps Tools
+![image](https://github.com/DininduChamikara/DevOps-Learning/assets/73112985/87d9abec-728d-4ef6-962b-197e11f240f2)
+
+![image](https://github.com/DininduChamikara/DevOps-Learning/assets/73112985/42ec0286-d1fb-4284-86a6-1d0e49dbb2a7)
+
+![image](https://github.com/DininduChamikara/DevOps-Learning/assets/73112985/e0882885-9e5a-4a8b-a1d5-5988a4030e7c)
 
 
 ## DevOps Use-Case
+
+![image](https://github.com/DininduChamikara/DevOps-Learning/assets/73112985/928a05b3-3c95-4cba-9418-3e794003a431)
+
+52:53 Stop
+
+
+---------------------------
+
+## Jetkins
+link - https://www.youtube.com/watch?v=6YZvp2GwT0A
+
+![image](https://github.com/DininduChamikara/DevOps-Learning/assets/73112985/3b6d3f52-31e6-457f-809d-4a56fef701fb)
+
+
+
+
+
+
+
+
