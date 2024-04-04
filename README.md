@@ -79,8 +79,56 @@ link - https://www.youtube.com/watch?v=6YZvp2GwT0A
 
 
 
+## Docker Basics
+link - https://www.youtube.com/watch?v=slcKUz6CyLg
 
+    * docker build . -> to create a docker image
+    * docker build -t docker_demo build . -> to create a docker image with the tag name
+    * docker image ls -> to get the list of docker images
+    * docker build -t docker_demo:v1 build . -> to create several versions of the same image
+    * docker run docker_demo:v1 -> to run the docker image
+    * docker run -p 5000:5000 docker_demo:v1 -> to bind the container running port to the local running port
 
+### Upload to a Docker Container Registry (DockerHub)
+
+Go to your docker hub account and create a repository with the name docker_demo
+
+    * docker tag docker_demo:v1 dininduchamikara/docker_demo:v1 -> tag with a name
+    * docker push dininduchamikara/docker_demo:v1 -> push the repo
+    * docker pull dininduchamikara/docker_demo:v1 -> pull the docker image
+    * docker run -p 5000:5000 dininduchamikara/docker_demo:v1 -> to run the docker image
+
+### Simple Dockerfile
+
+```markdown
+FROM node:21-alpine as builder
+
+WORKDIR /usr/app
+
+# Install some dependencies
+COPY ./package.json ./
+RUN npm install
+COPY ./ ./
+
+EXPOSE 4012
+
+CMD ["npm", "start"]
+```
+
+### Simple docker-compose.yml
+
+```markdown
+version: '3'
+
+services:
+  web:
+    build: .
+    ports:
+      - "5000:5000"
+```
+
+* docker compose up -d -> to run the docker-compose.yml file.
+* docker compose down -> to stop the running services.
 
 
 
